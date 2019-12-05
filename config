@@ -213,7 +213,7 @@ mode "Control Center" {
       bindsym s exec gnome-control-center sound
         
       bindsym Escape mode "default"
-      bindsym $mod+c mode "default", move to scratchpad
+      bindsym $mod+c mode "default", [class=Gnome-control-center] move to scratchpad
 }
 
 bindsym $mod+c mode "Control Center",exec --no-startup-id gnome-control-center, [class=Gnome-control-center] move to scratchpad, scratchpad show, resize set width 96 ppt height 95 ppt, move position center
