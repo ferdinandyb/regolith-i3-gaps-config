@@ -194,6 +194,7 @@ bindsym $mod+Ctrl+f floating toggle
 bindsym $mod+Ctrl+m move to scratchpad
 bindsym $mod+Ctrl+a scratchpad show
 bindsym $mod+Ctrl+x floating disable
+bindsym $mod+m move workspace to output right
 
 # change focus between tiling / floating windows
 bindsym $mod+Ctrl+t focus mode_toggle
